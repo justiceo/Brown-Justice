@@ -99,9 +99,16 @@ span.blink-code {
     padding: 40px 0;
 }
 
+.site-branding {
+    padding:  120px 0;
+}
+
+.site-title {
+    font-size: 6em;
+}
+
 #colophon.site-footer {
     background-color:  #444;
-    background-image:url('http://localhost:12093/wp-content/themes/eighties/images/header-default.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -119,7 +126,7 @@ span.blink-code {
 
 .paging-navigation, .post-navigation {
     max-width: 100%;
-    background-color:  #515151;
+    background-color:  #A52A2A;
 }
 
 .paging-navigation .nav-links, .post-navigation .nav-links {
@@ -174,6 +181,17 @@ span.blink-code {
     -moz-box-shadow: 3px -12px 70px 6px rgba(0,0,0,0.75);
     box-shadow: 3px -12px 70px 6px rgba(0,0,0,0.75);
     position:relative;
+}
+
+
+/**** make banner masthead a color */
+.backstretch img {
+    display: none!important;
+    background: brown;
+}
+
+header#masthead {
+    background: brown!important;
 }
 
 
